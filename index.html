@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>JQUERY PLAYGROUND</title>
+</head>
+<body>
+<div class='wrapper'>
+	
+	<!-- First Page -->
+	<div data-role="page" id="page-one">
+		<div data-role="main">
+			<div data-role="header">
+				Welcome to the MAIN EVENT!
+			</div>
+			<div data-role="header">
+		  <div data-role="navbar">
+		    <ul>
+		      <li><a href="#page-one" data-icon="home">Home</a></li>
+		      <li><a href="#page-two" data-icon="arrow-r">Page Two</a></li>
+		      <li><a href="#page-three" data-icon="mail">Three</a></li>
+		    </ul>
+		  </div>
+		</div>
+			<h1>PAGE ONE</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			</p>
+			<button><a href="#page-two" data-transition="slide">SWITCH!!! 🖥</a></button>
+		</div>
+		<div data-role="footer">
+			Started from the bottom now we're.... well... &copy; Matt 2017
+		</div>
+	</div>
+
+	<!-- Second Page -->
+	<div data-role="page" id="page-two">
+		<div data-role="main">
+		<div data-role="navbar">
+		    <ul>
+		      <li><a href="#page-one" data-icon="home">Home</a></li>
+		      <li><a href="#page-two" data-icon="arrow-r">Page Two</a></li>
+		      <li><a href="#page-three" data-icon="mail">Three</a></li>
+		    </ul>
+		  </div>
+			<h1 style="text-align: center;">PAGE TWO</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			</p>
+			<button><a href="#page-one" data-transition="slidefade" data-direction="reverse">TAKE ME BACK 💸</a></button>
+			<a href="#page-three" data-transition="slide" class="ui-btn">Three is the page for me</a>
+		</div>
+	</div>
+
+	<!-- Third Page -->
+	<div data-role="page" data-dialog="true" id="page-three">
+		<div>
+		<div data-role="navbar">
+		    <ul>
+		      <li><a href="#page-one" data-icon="home">Home</a></li>
+		      <li><a href="#page-two" data-icon="arrow-r">Page Two</a></li>
+		      <li><a href="#page-three" data-icon="mail">Three</a></li>
+		    </ul>
+		  </div>
+			<h1>Let us commence dialogue.</h1>
+			<small><p>small talk</p></small>
+			<button><a href="#page-one" data-transition="slidefade" data-direction="reverse">TAKE ME BACK 💸</a></button>
+		</div>
+	</div>
+	
+<!-- Page Four -->
+	<div data-role="page" id="page-four">
+		<div data-role="data-dialog">
+		<div data-role="navbar">
+		    <ul>
+		      <li><a href="#page-one" data-icon="home">Home</a></li>
+		      <li><a href="#page-two" data-icon="arrow-r">Page Two</a></li>
+		      <li><a href="#page-three" data-icon="mail">Three</a></li>
+		      <li><a href="#page-three" class="ui-btn-active" data-icon="arrow-r">Four</a></li>
+		    </ul>
+		  </div>
+			<h1>Let us commence dialogue.</h1>
+			<small><p>small talk</p></small>
+			<button><a href="#page-one" data-transition="slidefade" data-direction="reverse">TAKE ME BACK 💸</a></button>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
