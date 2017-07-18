@@ -31,3 +31,14 @@
 h1, h2, p {
 	text-align: center;
 }
+
+form {
+	padding: 15px;
+}
+
+.ui-btn {
+    padding: 10px;		
+	margin-top: 10px;
+    max-width: 40vw;
+    text-align: center;
+}
